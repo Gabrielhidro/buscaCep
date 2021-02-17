@@ -1,0 +1,63 @@
+
+.container {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 40%;
+  cursor: none;
+}
+
+.form-group-cep {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.form-control {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn {
+  margin-top: 20px;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.btn-primary {
+  width: 100px;  
+  background: #9dd9e7;
+}
+
+.btn-danger {
+  background: #f5a34c;
+  width: 100px;
+  margin-left: 5px;
+  background: #f09f89;
+
+}
+
+.btn-primary:hover {
+  background: #58e3ff;
+  transform:scale(1.1,1.1);
+}
+
+.btn-danger:hover {
+  background: #ef8368;
+  transform:scale(1.1,1.1);
+}

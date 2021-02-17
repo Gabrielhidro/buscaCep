@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+
+  </header>
+  
+  <div class="container col-md-5">
+    <form>
+      <div class="form-group-cep font-weight-bold">
+        <label>CEP</label>
+        <input type="number" id="cep" pattern= "\d{5}-?\d{3}" class="form-control" required placeholder="Insira o seu CEP" required>
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Rua</label>
+        <input type="text" class="form-control" id="rua">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Complemento</label>
+        <input type="text" class="form-control" id="complemento">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Bairro</label>
+        <input type="text" class="form-control" id="bairro">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Cidade</label>
+        <input type="text" class="form-control" id="cidade">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Estado</label>
+        <input type="text" class="form-control" id="estado">
+
+        <button type="submit" id="btnPesquisar" class="btn btn-primary">Pesquisar</button>
+        <button type="button" id="btnLimpar" class="btn btn-danger">Limpar</button>
+      </div>
+
+    </form>
+</div>
+
+</body>
+<script src="./js/script.js"></script>
+</html>
